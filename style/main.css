@@ -1,0 +1,50 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #dcd9dc;
+  color: #554c43;
+  font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+  font-size: 18px; 
+}
+
+body {
+	margin: 10px 0; 
+}
+
+h1.title {
+	font-size: 40px;
+	font-weight: bold;
+	margin: 0;
+	display: block;
+	text-align: center;
+	color: #005030;
+}
+
+.container {
+  	width: 900px;
+	margin: 0 auto;
+}
+
+input {
+	margin-right: 5px;
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+.result-number {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.submit-buttons {
+	font-weight: bolder;
+	background-color: darkgrey;
+	border-radius: 12px;
+	padding: 5px;
+	cursor: pointer;
+}
+
+.submit-buttons:hover {
+	background-color: lightgrey;
+	color: white;
+}
